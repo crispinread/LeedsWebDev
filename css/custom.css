@@ -1,0 +1,27 @@
+/* Add here all your CSS customizations */
+body{
+  background-color: #3E6183;
+}
+#header p, #header a, #header a:hover, #header a:focus{
+  color: #1A1C1F;
+}
+
+
+p, h1{
+    color: #B6B9B1;
+}
+a, a:hover, a:focus {
+    color: #fff;
+}
+
+hr {
+    background-image: -webkit-gradient(linear, right top, left top, from(transparent), color-stop(#B6B9B1), to(transparent));
+    background-image: linear-gradient(to left, transparent, #B6B9B1, transparent);
+    border: 0;
+    height: 1px;
+    margin: 22px 0;
+}
+#footer .footer-copyright p {
+    color: #B6B9B1;
+    text-align: right;
+  }
